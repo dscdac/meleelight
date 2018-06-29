@@ -1,7 +1,6 @@
 const {app, Menu,BrowserWindow} = require('electron')
 // Module to control application life.
 
-
 const path = require('path');
 const url = require('url');
 
@@ -218,7 +217,6 @@ app.on('activate', function () {
     createWindow()
   }
 })
-
 
 const DeepstreamServer = require('deepstream.io')
 const C = DeepstreamServer.constants;
